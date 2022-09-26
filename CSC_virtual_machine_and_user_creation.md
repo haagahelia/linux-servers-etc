@@ -47,7 +47,7 @@ sudo nano /etc/group    // add jyser1 to line   sudo:ubuntu,jyser1
 sudo adduser jyser2
 ```
 
-allow password authentication (less secure, easier in big student group)
+allow password authentication (less secure, easier in big student group. More secure would be: Creating public private key pairs, saving public key to server, providing private key while logging in)
 
 ```
 sudo nano /etc/ssh/sshd_config      // put password auth to yes
