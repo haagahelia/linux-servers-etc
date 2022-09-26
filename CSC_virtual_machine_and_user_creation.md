@@ -1,6 +1,6 @@
-# Juhani's collection of steps for mainly teachers (admins) and sometimes students (developers, users) to utilize Ubuntu Linux servers (e.g. in CSC cPouta cloud)
+# This first doc is a collection of steps for mainly teachers (admins) and only rarely students (developers, users) to utilize Ubuntu Linux servers (e.g. in CSC cPouta cloud)
 
-This first document is CSC cloud dependent.
+This first document is CSC cloud dependent. But next ones are for any Ubuntu linux computer.
 
 ## CSC - Setting up the course 'project' in my.csc.fi
 
