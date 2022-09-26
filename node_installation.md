@@ -1,4 +1,3 @@
-
 # Node and Node app installation
 
 ## Pre-requisite process:
