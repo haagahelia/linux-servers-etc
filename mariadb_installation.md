@@ -1,4 +1,3 @@
-
 # MariaDB installation
 
 ## 1. Installing MariaDB server to a VM
@@ -79,6 +78,18 @@ INSERT INTO Testi
 SELECT * FROM Testi;
 
 QUIT;
+```
+Or run SQL script files inside the database like this:
+
+```
+SOURCE ~/my_repo/Database/SQLScripts/00_create_tables.sql;
+```
+
+Or run SQL script files from outside of the database like this:
+(You'll need to say "USE casedb;" in the beginning of the file )
+
+```
+$ mysql -h localhost -u jyser3 < ~/my_repo/Database/SQLScripts/00_create_tables.sql;
 ```
 
 
