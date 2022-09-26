@@ -1,10 +1,13 @@
-# This first doc is a collection of steps for mainly teachers (admins) and only rarely students (developers, users) to utilize Ubuntu Linux servers (e.g. in CSC cPouta cloud)
+# This first doc is a collection of steps for mainly teachers (admins) and only rarely students (developers, users) to create Ubuntu Linux servers (e.g. in CSC cPouta cloud)
 
 This first document is CSC cloud dependent. But next ones are for any Ubuntu linux computer.
 
 ## CSC - Setting up the course 'project' in my.csc.fi
 
+1. teacher creates and account to my.csc.fi, but uses then and thereafter mostly school login there.
+
 1. teacher sets up a project and asks cPouta resources for it and possibly for additional resources
+
 1. write down the project number
 
 ## CSC - Creating virtual machine(s) in the https://pouta.csc.fi/dashboard/auth/login/
@@ -31,9 +34,13 @@ This first document is CSC cloud dependent. But next ones are for any Ubuntu lin
 1. Accept a new computer fingerprint/hash. Give the passphrase from the key creation time.
 
 1. adduser juser1, write password e.g. to Teams protected folder excel (secrets excel, put there also the server IP, usernames, passwords etc.) and then copy paste the password to the command line when needed.
+
 1. Add that juser1 to sudo group by editing nano /etc/group
+
 1. adduser juser2, write password to excel, don't add this user to sudo group
+
 1. Allow password authentication by editing nano /etc/ssh/sshd_config
+
 1. At least now might be good idea to take a snapshot (for restarting/resetting this server, or for multiplying one model server to be many)
 
 Thus, Once in, run 
