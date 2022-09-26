@@ -12,7 +12,7 @@ This first document is CSC cloud dependent. But next ones are for any Ubuntu lin
 
 ## CSC - Creating virtual machine(s) in the https://pouta.csc.fi/dashboard/auth/login/
 
-1. create a PPK public private key pair on your PC. Save the private key to your PC's safe folder. Copy the public key hash text. Remember also the keyphrase.
+1. create a public private key pair (PPK) with e.g. PuttyGen on your PC. Save the private key to your PC's safe folder. Copy the public key hash text. Remember also the keyphrase.
 
 1. go to pouta, select correct project and Compute > Key Pairs + Import Public key + paste to the Public key box and name the key
 
