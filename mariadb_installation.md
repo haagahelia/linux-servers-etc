@@ -47,7 +47,7 @@ creating user jyser3 with passwd - Again as the db root user
 ```
 CREATE USER 'jyser3' IDENTIFIED BY 'xyzxyzxyz';
 
-GRANT ALL ON casedb.* TO jyser3 WITH GRANT OPTION; // granting jyser3 needed privileges on casedb
+GRANT ALL ON casedb.* TO jyser3 WITH GRANT OPTION;    /* granting jyser3 needed privileges on casedb */
 
 QUIT;
 ```  
