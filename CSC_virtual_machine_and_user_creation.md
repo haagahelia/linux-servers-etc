@@ -4,7 +4,7 @@ This first document is CSC cloud dependent. But next ones are for any Ubuntu lin
 
 ## CSC - Setting up the course 'project' in my.csc.fi
 
-1. teacher creates and account to my.csc.fi, but uses then and thereafter mostly school login there.
+1. teacher creates an account in my.csc.fi, but uses then and thereafter mostly Haka school login there.
 
 1. teacher sets up a project and asks cPouta resources for it and possibly for additional resources
 
@@ -16,7 +16,7 @@ This first document is CSC cloud dependent. But next ones are for any Ubuntu lin
 
 1. go to pouta, select correct project and Compute > Key Pairs + Import Public key + paste to the Public key box and name the key
 
-1. go to pouta, Network > Security Groups > Create Security Group, set e.g. 22 allowed ingress (inbound), maybe not 3306 to protect the MariaDB/MySQL database
+1. go to pouta, Network > Security Groups > Create Security Group, set e.g. 22 allowed ingress (inbound), maybe not 3306 to protect the MariaDB/MySQL database. **Note:** Tell users **not** to set up any firewall inside the virtual machine console itself, otherwise they will be overlapping and stopping traffic non-desirable way.
 
 1. then go to Compute > Instances > Launch instance. Instance name something, Flavor e.g. standard.tiny to standard.large (depending of available resources and needs). 1 instance, Instance boot source: Boot from image. Image name e.g.: Ubuntu-22.04. Access & Security: add the the PPK key pair and the Security group.
 
