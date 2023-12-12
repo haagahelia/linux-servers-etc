@@ -121,7 +121,7 @@ SELECT * FROM Testi;
 
 QUIT;
 ```
-Or run SQL script files inside the database like this:
+Or run SQL script files inside the database console tool like this:
 
 ```
 SOURCE ~/my_repo/Database/SQLScripts/00_create_tables.sql;
