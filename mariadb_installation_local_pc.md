@@ -44,7 +44,9 @@ Is MariaDB server running? (Or is any process listening to port 3306)
  sudo lsof -i :3306
 ```
 
-kill -9 12345    to kill the process with the PID. Some tools call the Windows process id also PID, but you want to use the 'Linux'/bash one.
+```
+kill -9 12345    //to kill the process with the PID. Some tools call the Windows process id also PID, but you want to use the 'Linux'/bash one.
+```
 
 ## 4. Take admin connection from console
 
@@ -55,14 +57,10 @@ In the \bin folder, tryin to connect to the DBMS as root user, asking for passwo
 ```./mariadb -h localhost -u root -p```
 
 Immediately changing root password to some secure password that looks like a hash and is long enough.
+
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'secret_root_pw_HERE';
 ```
-
-// => Possibly take now a snaphot of that in CSC cloud dashboard
-```
-
-
 
 ## 5. Creating a SCHEMA (='database', namespace for database objects like tables) called generically   *casedb*
 
