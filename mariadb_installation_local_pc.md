@@ -24,7 +24,7 @@ I prefer the .zip version with no processes nor-services running without startin
 - did NOT set the root password like this:     --password=secret_root_pw
 - As it would have went to the console history that way, root password still empty
 
-** Write all secrets to safe excel sheet / secrets document (in school in Teams) ! **
+**Write all secrets to safe excel sheet / secrets document (in school in Teams)!**
 
 
 ## 3. Start the database server (DBMS)
